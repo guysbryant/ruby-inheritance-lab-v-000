@@ -4,4 +4,8 @@ class Student < User
   def initialize
     @knowledge = []
   end
+  
+  def learn(str_info)
+    @knowledge.push(str_info)
+  end
 end
