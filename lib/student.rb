@@ -8,4 +8,8 @@ class Student < User
   def learn(str_info)
     @knowledge.push(str_info)
   end
+  
+  def knowledge
+    @knowledge
+  end
 end
